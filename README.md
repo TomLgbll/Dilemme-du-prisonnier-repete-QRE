@@ -30,20 +30,16 @@ L'organisation est la suivante :
 ```text
 Dilemme-du-prisonnier-repete-QRE
 │
-├── Stage_final_juillet.R        # Script complet du projet
+├── Stage_code.R
 │
 └── Version modulaire
+    ├── main.R
+    ├── main_construction.R
+    │   ├── simulation_exploratoire.R
+    │   └── QRE_modeles.R
     │
-    ├── main.R                   # Script principal
-    │
-    ├── main_construction.R      # Construction des données
-    │   │
-    │   ├── simulation_exploratoire.R  # Simulation des agents
-    │   └── QRE_modeles.R              # Modèles QRE
-    │
-    └── main_estimation.R        # Estimation des modèles
-        │
-        ├── Monte_Carlo.R        # Expériences Monte Carlo
-        ├── MLE.R                # Maximum de Vraisemblance
-        └── best_response.R      # Modèle best response perturbé
+    └── main_estimation.R
+        ├── Monte_Carlo.R
+        ├── MLE.R
+        └── best_response.R
 ```
