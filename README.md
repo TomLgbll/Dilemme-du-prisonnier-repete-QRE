@@ -27,21 +27,23 @@ Le dépôt contient deux versions du code :
 L'organisation est la suivante :
 
 
+```text
 Dilemme-du-prisonnier-repete-QRE
 │
-├── Stage_code.R          # Script complet du projet
+├── Stage_final_juillet.R        # Script complet du projet
 │
 └── Version modulaire
     │
-    ├── main.R                     # Script principal
+    ├── main.R                   # Script principal
     │
-    ├── main_construction.R        # Construction des données
+    ├── main_construction.R      # Construction des données
     │   │
-    │   ├── simulation_exploratoire.R   # Simulation des agents
-    │   └── QRE_modeles.R               # Modèles QRE
+    │   ├── simulation_exploratoire.R  # Simulation des agents
+    │   └── QRE_modeles.R              # Modèles QRE
     │
-    └── main_estimation.R           # Estimation des modèles
+    └── main_estimation.R        # Estimation des modèles
         │
-        ├── Monte_Carlo.R            # Expériences Monte Carlo
-        ├── MLE.R                    # Maximum de vraisemblance
-        └── best_response.R          # Modèle best response perturbé****
+        ├── Monte_Carlo.R        # Expériences Monte Carlo
+        ├── MLE.R                # Maximum de Vraisemblance
+        └── best_response.R      # Modèle best response perturbé
+```
