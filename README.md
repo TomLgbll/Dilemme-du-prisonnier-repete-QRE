@@ -32,8 +32,7 @@ Dilemme-du-prisonnier-repete-QRE
 │
 ├── Stage_code.R
 │
-└── Version modulaire
-    ├── main.R
+└── main.R
     ├── main_construction.R
     │   ├── simulation_exploratoire.R
     │   └── QRE_modeles.R
